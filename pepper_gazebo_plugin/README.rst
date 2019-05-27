@@ -1,7 +1,7 @@
 pepper_gazebo_plugin
 =================
 
-Package developed against ROS Indigo and default gazebo (gazebo 2.2.3)
+Package developed against ROS Kinetic and gazebo 9 (gazebo 9.9.0)
 
 Dependencies
 ------------
@@ -12,7 +12,7 @@ NOTE: `pepper_meshes` needs to be **manually** installed; `apt`, `rosdep` or any
 
 .. code-block:: bash
 
-    sudo apt-get install ros-indigo-pepper-description ros-indigo-pepper-meshes ros-indigo-pepper-control
+    sudo apt-get install ros-kinetic-pepper-description ros-kinetic-pepper-meshes ros-kinetic-pepper-control
 
 Other plugins to fetch and compile:
 
@@ -28,7 +28,7 @@ Please also make sure that the package and all the dependencies are up to date
 .. code-block:: bash
     
     sudo apt-get update
-    sudo apt-get install ros-indigo-pepper-gazebo-plugin
+    sudo apt-get install ros-kinetic-pepper-gazebo-plugin
 
 If you prefer to install from source, then
 
@@ -36,7 +36,7 @@ If you prefer to install from source, then
 
 .. code-block:: bash
 
-    sudo apt-get install ros-indigo-gazebo-ros ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control ros-indigo-effort-controllers ros-indigo-joint-trajectory-controller
+    sudo apt-get install ros-kinetic-gazebo-ros ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control ros-kinetic-effort-controllers ros-kinetic-joint-trajectory-controller
 
 * clone the code and compile
 
